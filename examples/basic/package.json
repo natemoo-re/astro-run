@@ -4,10 +4,15 @@
   "version": "0.0.0",
   "type": "module",
   "dependencies": {
-    "@main/core": "workspace:*"
+    "astro": "^2.8.0",
+    "astro-run": "workspace:*"
   },
   "scripts": {
-    "start": "jiti ./index.ts"
+    "dev": "astro dev",
+    "start": "jiti ./astro.config.mjs && astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
   },
   "devDependencies": {
     "jiti": "^1.17.0"

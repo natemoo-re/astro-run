@@ -1,5 +1,5 @@
 {
-  "name": "@clack/root",
+  "name": "root",
   "private": true,
   "type": "module",
   "scripts": {

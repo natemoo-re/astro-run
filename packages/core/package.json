@@ -1,7 +1,8 @@
 {
-  "name": "@main/core",
+  "name": "astro-run",
   "version": "0.0.0",
   "type": "module",
+  "keywords": ["astro", "lifecycle", "zx", "build-hook", "astro-integration"],
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
   "exports": {
@@ -15,13 +16,13 @@
   "types": "./dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/natemoo-re/clack",
+    "url": "https://github.com/natemoo-re/astro-run",
     "directory": "packages/core"
   },
   "bugs": {
-    "url": "https://github.com/natemoo-re/clack/issues"
+    "url": "https://github.com/natemoo-re/astro-run/issues"
   },
-  "homepage": "https://github.com/natemoo-re/clack/tree/main/packages/core#readme",
+  "homepage": "https://github.com/natemoo-re/astro-run/tree/main/packages/core#readme",
   "files": [
     "dist",
     "CHANGELOG.md"
@@ -38,5 +39,9 @@
   },
   "devDependencies": {
     "unbuild": "^1.1.1"
+  },
+  "dependencies": {
+    "astro": "^2.8.0",
+    "zx": "^7.2.3"
   }
 }
