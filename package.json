@@ -25,5 +25,8 @@
   "packageManager": "pnpm@7.6.0",
   "volta": {
     "node": "16.19.0"
+  },
+  "dependencies": {
+    "esbuild": "0.16.17"
   }
 }
