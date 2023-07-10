@@ -8,8 +8,7 @@ export default definePreset({
 		emitCJS: true,
 		inlineDependencies: true,
 		esbuild: {
-			minify: true,
-			sourceMap: true,
+			minify: true
 		},
 	},
 });
