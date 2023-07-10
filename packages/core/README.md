@@ -62,7 +62,7 @@ export default defineConfig({
       },
       async postbuild({ $ }) {
         await $`echo "done!"`;
-      }
+      },
     }),
   ],
 });

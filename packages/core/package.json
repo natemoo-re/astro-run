@@ -2,7 +2,13 @@
   "name": "astro-run",
   "version": "0.0.0",
   "type": "module",
-  "keywords": ["astro", "lifecycle", "zx", "build-hook", "astro-integration"],
+  "keywords": [
+    "astro",
+    "lifecycle",
+    "zx",
+    "build-hook",
+    "astro-integration"
+  ],
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
   "exports": {
